@@ -1,0 +1,458 @@
+* {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.Logo {
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin-left: 0%;
+    margin-top: 0%;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    color: white;
+    font-family: unset;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+/*Estilo encabezado*/
+header {
+    padding: 0;
+    text-align: left;
+    font-size: 25px;
+    color: black;
+    font-family: "Poppins";
+}
+
+.container-topnav {
+    padding: 1%;
+    margin-top: 2%;
+    margin-left: 0%;
+    font-size: 2px;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 5%;
+    font-size: 40%;
+    padding-right: 9%;
+    text-align: left;
+}
+
+.topnav{
+    padding: 1%;
+}
+
+.topnav input[type="text"] {
+    padding-left: 20px;                 
+    background-size: 10px;              
+    background-repeat: no-repeat;       
+    background-position: 5px center;    
+}
+
+button {
+    position: relative;
+    margin-right: 10%;
+    padding: 1% 1%;
+    border: none;
+    background-color: transparent;
+    color: black;
+    font-size: 70%;
+    cursor: pointer;
+}
+
+.container-btn-search{
+    position: absolute;
+    padding: 2%;
+    margin-left: 6%;
+    margin-top: -5.50%;
+}
+
+.button btn-search{
+    position: relative;
+    margin-top: 20%;    
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Boton registrar*/
+.container-btn-registrar{
+    margin-left: -50%;
+    margin-top: 5%;
+    padding-left: 0%;
+    position: relative;
+    background-color: black;
+}
+
+.container-btn-registrar li{
+    margin-left: 8%;
+    margin-top: -8%;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+}
+
+.container-btn-registrar li a{
+    margin-left: 15%;
+    margin-top: -100%;
+    color: black;
+}
+
+.register{
+    margin-top: -20%;
+    margin-left: 15%;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    line-height: 1;
+}
+
+.fa-registrer{
+    font-size: 100%;
+    margin-right: 20%;
+}
+
+.container-btn-registrar li a::after,
+.container-btn-registrar li a::before{
+    content: "";
+    border-bottom: 2px solid black;
+    position: absolute;
+    bottom: -35px;
+    width: 100px;
+    left: 20%;
+    text-align: left;
+    margin-left: 10%;
+    transition: 1s;
+}
+
+.container-btn-registrar li a::before{
+    right: 0;
+    width: 0%;
+}
+
+.container-btn-registrar li a::after{
+    right: 0;
+    width: 0%;
+}    
+
+.container-btn-registrar li a:hover:before{
+    width: 57%;
+}
+
+.container-btn-registrar li a:hover::after{
+    opacity: 1;
+    width: 0%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Boton Usuario*/
+.container-btn-user{
+    margin-left: 0%;
+    margin-top: 5%;    
+    padding-left: 0%;
+    position: relative;
+    background-color: black;
+}
+
+.container-btn-user li{
+    margin-top: -18%;
+    margin-left: 15%;
+    display: inline-block;
+    font-style: normal;
+    text-rendering: auto;
+}
+
+.container-btn-user li a{
+    color: black;
+    margin-left: -45%;
+    margin-top: -100%;
+}
+
+.user{
+    margin-top: 0%;
+    margin-left: 15%;
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    font-style: normal;
+    line-height: 1;
+}
+
+.fa-user{
+    font-size: 100%;
+    margin-right: 5%;
+}
+
+.icono-usuario{
+    font-size: 100%;
+    margin-left: 0%;
+}
+
+.container-btn-user li a::after,
+.container-btn-user li a::before{
+    border-bottom: 2px solid black;
+    position: absolute;
+    bottom: -20px;
+    width: 100px;
+    left: -15%;
+    text-align: left;
+    margin-left: 10%;
+    transition: 1s;
+}
+
+.container-btn-user li a::before{
+    right: 0;
+    width: 0%;
+}
+
+.container-btn-user li a::after{
+    right: 0;
+    width: 0%;
+}    
+
+.container-btn-user li a:hover:before{
+    width: 95%;
+}
+
+.container-btn-user li a:hover::after{
+    opacity: 1;
+    width: 0%;
+}    
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Otras cosas*/
+
+nav {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    color: aqua;
+}
+
+article {
+    float: left;
+    padding: 15px;
+    width: 25%;
+    background-color: white;
+    height: 300px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+
+li {
+    float: left;
+    padding: 0px;
+    padding-left: 25px;
+    padding-right: 15px;
+    padding-top: 30px;
+}
+
+li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    height: -100%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Footer*/
+
+.footer-container {
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container img{
+    display: flex;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 0%;
+    margin-bottom: 8%;
+}
+
+.footer-section_1 {
+    flex: 1;
+    text-align: center;
+    margin-left: 1%;
+}
+
+.footer-section_2 {
+    flex: 1;
+    text-align: center;
+    margin-left: 1%;
+    background-color: violet;
+}
+
+.footer-section_3 {
+    flex: 1;
+    text-align: center;
+    margin-left: 1%;
+    margin-bottom: 10%;
+    background-color: red;
+}
+
+.footer-section_4{
+    flex: 1;
+    text-align: center;
+    margin-left: -26%;
+    margin-top: 10%;
+    background-color: orange;
+}
+
+.footer-section_1 p{
+    margin-bottom: 1%;
+    margin-left: -20%;
+    margin-top: 5%;
+}
+
+.footer-section_2 p{
+    margin-bottom: 1%;
+    margin-left: -10%;
+    margin-top: 5%;
+}
+
+.footer-section_3 p{
+    margin-bottom: 1%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.footer-section_4 p{
+    margin-bottom: 5%;
+    margin-left: -8%;
+    margin-top: 10%;
+}
+
+.footer-section_1 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10%;
+}
+
+.footer-section_2 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10%;
+}
+
+.footer-section_3 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 10%;
+}
+
+.footer-section_4 ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 5%;
+}
+
+.footer-section_1 ul li {
+    margin-bottom: 1px;
+}
+
+.footer-section_2 ul li {
+    margin-bottom: 1px;
+}
+
+.footer-section_3 ul li {
+    margin-bottom: 1px;
+}
+
+.footer-section_4 ul li {
+    margin-bottom: 1px;
+}
+
+.footer-section_1 ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section_2 ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section_3 ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-section_4 ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+
+.container-footer li a::after,
+.container-footer li a::before{
+    content: "";
+    border-bottom: 2px solid white;
+    position: absolute;
+    bottom: -40px;
+    width: 100px;
+    left: 20%;
+    text-align: left;
+    margin-left: 10%;
+    transition: 1s;
+}
+
+.container-footer li a::before{
+    right: 0;
+    width: 0%;
+}
+
+.container-footer li a::after{
+    right: 0;
+    width: 0%;
+}    
+
+.container-footer li a:hover:before{
+    width: 57%;
+}
+
+.container-footer li a:hover::after{
+    opacity: 1;
+    width: 0%;
+}
